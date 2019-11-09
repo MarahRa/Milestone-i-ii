@@ -1,20 +1,43 @@
 body {
   background-color: Beige;
 }
-.topnav {
-background-color: #dac292;
-font-style: bold;
-font-size: 30px;
-font-family:  sans-serif;
-word-spacing: 20px;
-margin-bottom: 50px;
+#nav-bar {
+  font-style: bold;
+  font-size: 30px;
+  font-family: sans-serif;
 }
+
+.home {
+  transition: 1s font-size ease-in-out;
+}
+.home:hover {
+  transition: 0.5s font-size ease-in-out, 1s border ease-in;
+  font-size: 50px;
+  border: 3px dotted blue;
+}
+.shop {
+  transition: 1s font-size ease-in-out;
+}
+.shop:hover {
+  transition: 0.5s font-size ease-in-out, 1s border ease-in;
+  font-size: 50px;
+  border: 3px dotted green;
+}
+.topnav {
+  background-color: #dac292;
+  font-style: bold;
+  font-size: 30px;
+  font-family: sans-serif;
+  word-spacing: 20px;
+  margin-bottom: 50px;
+}
+
 .topnav a {
-color: #b9936c;
+  color: #b9936c;
 }
 h1 {
-font-family: sans-serif;
-color: #b9936c;
+  font-family: sans-serif;
+  color: #b9936c;
 }
 hr {
   margin-top: 20px;
@@ -24,36 +47,46 @@ hr {
 }
 
 label {
-font-family: sans-serif;
-color:  #b9936c;
+  font-family: sans-serif;
+  color: #b9936c;
 }
 .container {
-margin-top: 20px;
-margin-bottom: 20px;
+  margin-top: 20px;
+  margin-bottom: 20px;
 }
 .mail {
-margin-bottom: 20px;
+  margin-bottom: 20px;
 }
 textarea {
-vertical-align: top;
+  vertical-align: top;
 }
 p {
-font-family: sans-serif;
-color:  #b9936c;
+  font-family: sans-serif;
+  color: #b9936c;
 }
 .yes {
-margin-bottom: 10px;
-
+  margin-bottom: 10px;
+  font-size: 20px;
+}
+.contact {
+  font-size: 20px;
+  transition: 0.3s font-size linear;
+}
+.contact:hover {
+  font-size: 60px;
+  transition: 0.1s font-size linear;
 }
 .no {
-margin-bottom: 20px;
-
+  margin-bottom: 20px;
 }
 .map {
-margin-top: 50px;
+  margin-top: 50px;
 }
 .visit {
-margin-bottom: 20px;
-font-family: sans-serif;
-font-size: 30px
+  margin-bottom: 20px;
+  font-family: sans-serif;
+  font-size: 30px;
+}
+h2 {
+  color: #dac292;
 }
