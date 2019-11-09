@@ -1,0 +1,59 @@
+body {
+  background-color: Beige;
+}
+.topnav {
+background-color: #dac292;
+font-style: bold;
+font-size: 30px;
+font-family:  sans-serif;
+word-spacing: 20px;
+margin-bottom: 50px;
+}
+.topnav a {
+color: #b9936c;
+}
+h1 {
+font-family: sans-serif;
+color: #b9936c;
+}
+hr {
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border: 0;
+  border-top: 1px solid #eee;
+}
+
+label {
+font-family: sans-serif;
+color:  #b9936c;
+}
+.container {
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.mail {
+margin-bottom: 20px;
+}
+textarea {
+vertical-align: top;
+}
+p {
+font-family: sans-serif;
+color:  #b9936c;
+}
+.yes {
+margin-bottom: 10px;
+
+}
+.no {
+margin-bottom: 20px;
+
+}
+.map {
+margin-top: 50px;
+}
+.visit {
+margin-bottom: 20px;
+font-family: sans-serif;
+font-size: 30px
+}
